@@ -1,0 +1,184 @@
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #F9FAFB; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%; /* Make the container take full height */
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Ensure columns stretch to the same height */
+    justify-content: space-between;
+    width: 100%;
+}
+
+.col-left, .col-right {
+    flex: 1;
+    max-width: 50%;
+    height: 100%; /* Ensure columns take full height of their container */
+    padding: 40px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.col-left {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center the content inside the left column */
+    position: relative;
+}
+
+.col-right {
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+.form-floating {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: right; /* Align labels and inputs to the right */
+}
+
+.form-floating input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #f3f4f6;
+    color: #333;
+    text-align: right; /* Ensure input text is right-aligned */
+}
+
+.form-floating label {
+    position: absolute;
+    top: -10px;
+    right: 12px; /* Align label to the right */
+    background-color: #fff;
+    padding: 0 5px;
+    color: #6b7280;
+    font-size: 12px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.btn {
+    width: 50%; /* Make the button width 50% of the container */
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6E44FF; /* Purple button color */
+    color: #fff;
+    cursor: pointer;
+    margin: 20px auto 0 auto; /* Center the button */
+    display: block; /* Ensure the button is centered */
+}
+
+.btn:hover {
+    background-color: #5a38d2;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #6E44FF;
+    text-align: center; /* Center the forgot password link */
+}
+
+.image-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #eef4fd;
+    border-radius: 19px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 670px; /* Adjust this value as needed */
+    display: flex; /* Use flexbox to center content vertically */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+}
+
+.image-container img {
+    max-width: 80%;
+    height: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.logo-container img {
+    max-width: 100px; 
+    height: auto;
+}
+
+
+</style>
+
+<div class="container">
+    <div class="row">
+        <!-- Left Column: Login Form -->
+        <div class="col-left">
+            <div class="header-container">
+                <h3>المنصة التفاعلية</h3>
+                <div class="logo-container">
+                    <img src="./assets/images/1.png" alt="Small Logo" class="small-logo">
+                </div>
+            </div>
+            <p>لادارة حسابات التشغيل</p>
+            <h3>تسجيل الدخول</h3>
+            <p>أهلا بك مجددًا، قم بالتسجيل الآن لمتابعة آخر تفاصيل المستخدمين</p>
+            <form (ngSubmit)="login()">
+                <div class="form-floating">
+                    <input type="email" id="email" placeholder="البريد الإلكتروني" [(ngModel)]="user.email" name="email" required>
+                    <label for="email">البريد الإلكتروني</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" id="password" placeholder="كلمة المرور" [(ngModel)]="user.password" name="password" required>
+                    <label for="password">كلمة المرور</label>
+                </div>
+                <button type="submit" class="btn">تسجيل الدخول</button>
+                <a href="#" class="forgot-password">نسيت كلمة المرور؟ قم بتعين كلمة مرور جديدة</a>
+            </form>
+        </div>
+        <!-- Right Column: Image -->
+        <div class="col-right">
+            <div class="image-container">
+                <img src="./assets/images/Logo.png" alt="Login Illustration">
+            </div>
+        </div>
+    </div>
+</div>

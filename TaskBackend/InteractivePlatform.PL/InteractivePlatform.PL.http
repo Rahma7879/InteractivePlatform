@@ -1,0 +1,6 @@
+@InteractivePlatform.PL_HostAddress = http://localhost:5291
+
+GET {{InteractivePlatform.PL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            direction: rtl; /* For Arabic text direction */
+            margin: 0;
+            padding: 0;
+        }
+
+        .finance-page-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+
+        /* Logout Button */
+        .logout-button {
+            position: absolute;
+           
+            left: 0px;
+            background-color: #9772ee;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        .logout-button i {
+            margin-right: 8px;
+        }
+
+        /* Header Section */
+        .finance-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        .small-logo {
+            width: 40px;
+            height: auto;
+        }
+
+        .header-title {
+            flex: 1;
+        }
+
+        .header-title h2 {
+            margin: 0;
+            color: #000000;
+            font-size: 1.5em;
+        }
+
+        .header-title p {
+            margin: 0;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .search-bar input {
+            width: 200px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+
+        .search-bar button {
+            padding: 8px 15px;
+            background-color: #5a67d8;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Summary Cards Section */
+        .summary-cards {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #f0f3f7;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-content p {
+            margin: 0;
+            color: #666;
+            font-size: 1em;
+        }
+
+        .card-content h3 {
+            margin: 10px 0 0;
+            font-size: 1.5em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Filters and Actions Section */
+        .filters-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            background-color: #f7f7f7;
+        }
+
+        .filter {
+            display: flex;
+            align-items: center;
+        }
+
+        .filter label {
+            margin-right: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .filter select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .actions button {
+            background-color: #5a67d8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        /* Table Section */
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: right;
+        }
+
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        th {
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        td {
+            color: #555;
+        }
+
+        .status {
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .status.qualified {
+            color: #00ff00; /* green color */
+        }
+
+        .status.not-qualified {
+            color: #d9534f; /* Red color */
+        }
+
+        .action-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #333;
+        }
+
+        /* Pagination Section */
+        .pagination {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            background-color: #5a67d8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pagination span {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="finance-page-container">
+        <!-- Header Section -->
+        <div class="finance-header">
+            <div class="logo-container">
+                <img src="./assets/images/1.png" alt="Small Logo" class="small-logo">
+            </div>
+            <div class="header-title">
+                <h2>المنصة التفاعلية</h2>
+                <p>لادارة حسابات التشغيل</p>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" placeholder="ابحث عن ...">
+                <button (click)="search()"><i class="fas fa-search"></i> </button>
+            </div>
+
+            <!-- Logout Button -->
+            <button class="logout-button" (click)="logout()"><i class="fas fa-sign-out-alt"></i> </button>
+        </div>
+
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-content">
+                    <p>إجمالي الطلبات</p>
+                    <h3>{{ totalRequests }}</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p>الطلبات المقبولة</p>
+                    <h3>{{ acceptedRequests }}</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <p>الطلبات المرفوضة</p>
+                    <h3>{{ rejectedRequests }}</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filters and Actions Section -->
+        <div class="filters-actions">
+            <div class="search-bar">
+                <input type="text" placeholder=" ابحث برقم الطلب..." [(ngModel)]="searchQuery">
+                <button (click)="searchwithNumber()"><i class="fas fa-search"></i> </button>
+            </div>
+            <div class="filter">
+                <label for="statusFilter">حالة الطلب</label>
+                <select id="statusFilter" [(ngModel)]="selectedStatus" (change)="filterRequests()">
+                    <option value="">الكل</option>
+                    <option value="مؤهل للشروط">مؤهل للشروط</option>
+                    <option value="غير مؤهل للشروط">غير مؤهل للشروط</option>
+                </select>
+            </div>
+            <div class="actions">
+                <button (click)="sendAlert()">إرسال تنبيه للمستخدمين</button>
+                <button (click)="sendSummary()">إرسال ملخص للطلبات</button>
+            </div>
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>رقم الطلب</th>
+                        <th>مبلغ السداد</th>
+                        <th>مدة السداد</th>
+                        <th>الربح الإجمالي</th>
+                        <th>حالة الطلب</th>
+                        <th>الإجراء</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let request of financeRequests || []">
+                        <td>{{ request.requestNumber }}</td>
+                        <td>{{ request.paymentAmount }} ريال</td>
+                        <td>{{ request.paymentPeriod }} شهر</td>
+                        <td>{{ request.totalProfit }} ريال</td>
+                        <td class="status" [ngClass]="{'qualified': request.status === 'مؤهل للشروط', 'not-qualified': request.status === 'غير مؤهل للشروط'}">
+                            {{ request.status }}
+                        </td>
+                        <td>
+                            <button class="action-btn" (click)="handleAction(request)"><i class="fas fa-cogs"></i></button>
+                        </td>
+                    </tr>
+                    <tr *ngIf="financeRequests.length === 0">
+                        <td colspan="6">لا توجد طلبات</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="pagination">
+            <button (click)="prevPage()" [disabled]="currentPage === 1">السابق</button>
+            <span>الصفحة {{ currentPage }} من {{ totalPages }}</span>
+            <button (click)="nextPage()" [disabled]="currentPage === totalPages">التالي</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
