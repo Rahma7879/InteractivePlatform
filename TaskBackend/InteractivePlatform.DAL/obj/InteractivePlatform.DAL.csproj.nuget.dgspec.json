@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj": {}
+    "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj": {
+    "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj",
         "projectName": "InteractivePlatform.DAL",
-        "projectPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj",
+        "projectPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj",
         "packagesPath": "C:\\Users\\ELFAT7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ELFAT7\\AppData\\Roaming\\NuGet\\NuGet.Config",

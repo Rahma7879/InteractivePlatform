@@ -260,6 +260,7 @@
             </div>
 
             <div class="search-bar">
+                <p>{{account.r.name}}</p>
                 <input type="text" placeholder="ابحث عن ...">
                 <button (click)="search()"><i class="fas fa-search"></i> </button>
             </div>
@@ -293,7 +294,7 @@
         <div class="filters-actions">
             <div class="search-bar">
                 <input type="text" placeholder=" ابحث برقم الطلب..." [(ngModel)]="searchQuery">
-                <button (click)="searchwithNumber()"><i class="fas fa-search"></i> </button>
+                <button (click)=" searchWithNumber()"><i class="fas fa-search"></i> </button>
             </div>
             <div class="filter">
                 <label for="statusFilter">حالة الطلب</label>

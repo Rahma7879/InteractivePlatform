@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aOaH5sXNCsoRlWgFKhHY1lvHvBRNT23WufE70/8xcJR+mhrRQWE4NzJRAQWFsx5H5wmBZ8l08FMMP0f1JGERuA==",
+  "dgSpecHash": "ktKvq9jCkNPDjIYnlBvCJluGYdILRsU/rGsB1Ac/LHle+Indj+Yn2is+vwNsG9b1jWalafVkqSDrHtZRcADgcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\InteractivePlatform.BL.csproj",
+  "projectFilePath": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.BL\\InteractivePlatform.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ELFAT7\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ELFAT7\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

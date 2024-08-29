@@ -35,7 +35,7 @@ export class FinanceComponent {
   totalRequests = 0;
    
 
-  constructor(private financeService: FinanceService,private account:AccountService,private router:Router) {}
+  constructor(private financeService: FinanceService,public account:AccountService,private router:Router) {}
 
   ngOnInit(): void {
     this.loadRequests(this.currentPage);
@@ -79,19 +79,17 @@ export class FinanceComponent {
     this.acceptedRequests = this.allRequests.filter(req => req.status === 'مؤهل للشروط').length;
     this.totalRequests = this.allRequests.length;
   }
-  searchwithNumber() {
-    console.log(this.searchQuery)
+  searchWithNumber() {
+    console.log(this.searchQuery);
     if (this.searchQuery) {
-      this.filteredRequests = this.financeRequests.filter(request =>
-        request.requestNumber.includes(this.searchQuery)
-  
-      );
-      
+        this. financeRequests = this.financeRequests.filter(request =>
+            request.requestNumber.includes(this.searchQuery)
+           
+        );
     } else {
-      this.filteredRequests = this.financeRequests;
+        this.filteredRequests = this.financeRequests;
     }
-  }
-
+}
   
 
   filterRequests(): void {

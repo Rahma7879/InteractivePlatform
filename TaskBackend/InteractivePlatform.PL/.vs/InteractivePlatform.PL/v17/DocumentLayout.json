@@ -1,31 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\",
+  "WorkspaceRootPath": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|c:\\users\\elfat7\\desktop\\task\\interactiveplatform\\interactiveplatform\\taskbackend\\interactiveplatform.pl\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|solutionrelative:controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4A4A24C-40F5-4187-9CE1-6737B8214454}|..\\InteractivePlatform.BL\\InteractivePlatform.BL.csproj|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.bl\\repository\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5B78DAB-0481-4A8C-AA3E-AC734CBF87DF}|..\\InteractivePlatform.DAL\\InteractivePlatform.DAL.csproj|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.dal\\model\\financerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4A4A24C-40F5-4187-9CE1-6737B8214454}|..\\InteractivePlatform.BL\\InteractivePlatform.BL.csproj|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.bl\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E4D0EC-20F7-4763-8197-F438C978BBB2}|InteractivePlatform.PL.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\elfat7\\desktop\\task\\interactiveplatform.dal\\model\\financerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -44,6 +35,15 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\elfat7\\desktop\\task\\interactiveplatform.bl\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.bl\\repository\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.dal\\model\\financerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\elfat7\\desktop\\task\\taskbackend\\interactiveplatform.bl\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +53,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,74 +101,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GenericRepo.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T13:40:19.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinanceRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T23:42:08.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\Services\\FileService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T11:52:04.772Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "financeController.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\financeController.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\financeController.cs",
               "RelativeDocumentMoniker": "Controllers\\financeController.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\financeController.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\financeController.cs",
               "RelativeToolTip": "Controllers\\financeController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAABgAAAAfAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:22:08.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AQIAAFQAAAAAAAAAAAAAAHgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:06:08.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T01:06:08.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAFUAAAAAAAAAAAAAAGUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -176,84 +150,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "FinanceRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\FinanceRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:37:23.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\InteractivePlatform\\InteractivePlatform\\TaskBackend\\InteractivePlatform.PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T00:25:40.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FinanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T23:42:08.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Repository\\GenericRepo.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T13:40:19.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\Services\\FileService.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\Services\\FileService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:49:32.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "FinanceRequest.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.DAL\\Model\\FinanceRequest.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T02:00:45.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.PL\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T00:25:40.653Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:05:54.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "UserAddDTO.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\UserAddDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T00:37:29.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "..\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
               "ToolTip": "C:\\Users\\ELFAT7\\Desktop\\Task\\TaskBackend\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
-              "RelativeToolTip": "..\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\TaskBackend\\InteractivePlatform.BL\\DTO\\RegisterDTO.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T00:34:12.906Z"
